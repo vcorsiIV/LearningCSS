@@ -1,0 +1,51 @@
+*{
+	box-sizing:border-box;
+}
+
+html, body{
+	height:100%;
+}
+
+.gridTitle {
+    border: 1px solid red;
+    padding: 15px;
+}
+.cell {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.wrap{
+	min-height:100%;
+	margin-bottom: -142px;
+}
+
+.after{
+	content:"";
+	display: block;
+	height:142px;
+	
+}
+
+.foot{
+	background: orange;	
+} 
+
+table {
+		font-family: Castellar, sans-serif;
+		font-size: 16pt;
+		border-collapse: collapse;
+		width: 65%;
+}
+
+td, th {
+		border: 3px solid #dddddd;
+		text-align: left;
+		padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
