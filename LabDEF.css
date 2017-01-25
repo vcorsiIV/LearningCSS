@@ -1,0 +1,44 @@
+button{
+	type="button;"
+	
+}
+
+.button1{
+			background-color: #0A047B;
+			color: white;
+			margin: 10px 2px;
+			cursor: pointer;		
+}
+
+.img-rnd{
+	border-radius: 25%;
+	width:130px;
+	height:100px;
+}
+
+.stitched {
+   padding: 20px;
+   margin: 10px;
+   background: #f07135;
+   color: #fff;
+   font-size: 29px;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #f07135, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px red;
+   font-weight: normal;
+}
+
+
+.stitched-img {
+   padding: 20px;
+   margin: 10px;
+   background: gray;
+   color: white;
+   border: 2px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px gray, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   width:195px;
+   height:195px;
+}
