@@ -1,0 +1,52 @@
+.wrapper{
+	margin: 50px auto;
+	width: 280px;
+	height: 370px;
+	background: white;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.487);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.487);
+	position: relative;
+	z-index: 90;
+}
+
+.ribbon-wrapper{
+	width: 85px;
+	height:88px;
+	overflow: hidden;
+	position: absolute;
+	top:-3px;
+	right: -3px;
+}
+
+.ribbon-red{
+	font: 15px Sans-Serif;
+	color: white;
+	text-align: center;
+	text-shadow: rgba(255,255,255, 0.85) 0px 1px 0px;
+	-webkit-transform: rotate(45deg);
+	position: relative;
+	padding: 7px 0;
+	left: -5px;
+	top:15px;
+	width:120px;
+	background-color: red;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#c7873a), to(#bf2828))
+	background-image: -webkit-linear-gradient(top,#bf873a, #bf2828);
+	-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.487);
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.487);
+}
+
+.ribbon-red:before{
+	content: "";
+	border-top: 3px solid #bf873a;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	position:absolute;
+	bottom: -3px;
+	left:0;
+}
+
+.blurry-text {
+   text-shadow: 0 0 5px rgba(20,0,34,50);
+}
